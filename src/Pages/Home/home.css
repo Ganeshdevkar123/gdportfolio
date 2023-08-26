@@ -1,0 +1,44 @@
+.home {
+    align-items: center;
+    height: 100vh;
+}
+
+.home__img {
+    margin: 15px 30px;
+    height: 95vh;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 0 8px hsla(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.home__data {
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.home__title {
+    position: relative;
+    font-size: var(--h1-font-size);
+    line-height: 1.24;
+}
+
+.home__title span {
+    color: var(--first-color);
+}
+
+.home__dscription {
+    line-height: 2.125;
+    margin-block: 16px 32px;
+}
+
+.color__block {
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    background-color: var(--first-color);
+    top: -50%;
+    left: -83%;
+    transform: rotate(-15deg);
+    z-index: -1;
+}
